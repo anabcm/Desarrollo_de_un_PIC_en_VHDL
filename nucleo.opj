@@ -1,0 +1,251 @@
+(ExpressProject "nucleo"
+  (ProjectVersion "19981106")
+  (ProjectType "FPGA")
+  (Vendor "Simple")
+  (Family "GAL/PAL/PROM Family")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "C:\Program Files\OrCAD\CAPTURE\Library\spld\spld.olb"
+        (Type "Schematic Library"))
+      (File "C:\Program Files\OrCAD\CAPTURE\Library\spld\spld.scl"
+        (Type "VHDL Synthesis Target Library"))
+      (File "C:\Program Files\OrCAD\CAPTURE\Library\fpgacore.scl"
+        (Type "VHDL Synthesis Target Library"))
+      (File "C:\Program Files\OrCAD\CAPTURE\Library\spld\spld.sml"
+        (Type "VHDL Synthesis Macro Library")))
+    (NoModify)
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (File ".\final.dsn"
+      (Type "Schematic Design"))
+    (File ".\deco.vhd"
+      (Type "VHDL Source"))
+    (File ".\alu.vhd"
+      (Type "VHDL Source"))
+    (File ".\addmux.vhd"
+      (Type "VHDL Source"))
+    (File ".\mux.vhd"
+      (Type "VHDL Netlist"))
+    (File ".\wreg.vhd"
+      (Type "VHDL Source"))
+    (File ".\eprom.vhd"
+      (Type "VHDL Source"))
+    (File ".\ins_reg.vhd"
+      (Type "VHDL Source"))
+    (File ".\clk.vhd"
+      (Type "VHDL Source"))
+    (File ".\ram.vhd"
+      (Type "VHDL Source"))
+    (File ".\pc.vhd"
+      (Type "VHDL Source"))
+    (File ".\stack2.vhd"
+      (Type "VHDL Source")))
+  (Folder "Outputs")
+  (Folder "Simulation Resources"
+    (Folder "In Design"
+      (File "C:\Program Files\OrCAD\CAPTURE\Library\spld\spld.vhd"
+        (Type "VHDL SimModel"))
+      (File "C:\DECODIFICADOR\ests1"
+        (Type "Simulate Stimulus"))
+      (File ".\deco.vhd"
+        (Type "VHDL Source")
+        (FromUpdateSimFolder "yes"))
+      (File ".\alu.vhd"
+        (Type "VHDL Source")
+        (FromUpdateSimFolder "yes"))
+      (File ".\addmux.vhd"
+        (Type "VHDL Source")
+        (FromUpdateSimFolder "yes"))
+      (File ".\mux.vhd"
+        (Type "VHDL Netlist")
+        (FromUpdateSimFolder "yes"))
+      (File ".\wreg.vhd"
+        (Type "VHDL Source")
+        (FromUpdateSimFolder "yes"))
+      (File ".\eprom.vhd"
+        (Type "VHDL Source")
+        (FromUpdateSimFolder "yes"))
+      (File ".\ins_reg.vhd"
+        (Type "VHDL Source")
+        (FromUpdateSimFolder "yes"))
+      (File ".\clk.vhd"
+        (Type "VHDL Source")
+        (FromUpdateSimFolder "yes"))
+      (File ".\ram.vhd"
+        (Type "VHDL Source")
+        (FromUpdateSimFolder "yes"))
+      (File "C:\DECODIFICADOR\PRUEBA_CON_RAM"
+        (Type "Simulate Stimulus"))
+      (File ".\pc.vhd"
+        (Type "VHDL Source")
+        (FromUpdateSimFolder "yes"))
+      (File ".\stack2.vhd"
+        (Type "VHDL Source")
+        (FromUpdateSimFolder "yes"))
+      (File ".\prb"
+        (Type "Simulate Stimulus"))
+      (File ".\indesign\final.vhd"
+        (Type "VHDL Netlist")
+        (FromUpdateSimFolder "yes"))
+      (Document 5 ".\prb"
+        (Window "44 0 1 -1 -1 -1 -1 88 1318 116 471"))
+      (Document 0
+        (Signal "addmux" "escribir" 4 0)
+        (Signal "addmux" "leer" 4 0)
+        (Signal "addmux" "e_ram" 4 0)
+        (Signal "addmux" "e" 4 0)
+        (Signal "addmux" "direccion" 4 0)
+        (Signal "addmux" "statin" 4 0)
+        (Signal "addmux" "busd" 4 0)
+        (Signal "addmux" "diradd" 4 0)
+        (Signal "addmux" "clkc" 4 0)
+        (Signal "addmux" "clkd" 4 0)
+        (Signal "addmux" "clkb" 4 0)
+        (Signal "addmux" "reset" 4 0)
+        (Signal "addmux" "pcl" 4 0)
+        (Signal "addmux" "fsr" 4 0)
+        (Signal "addmux" "status" 4 0)
+        (Window "44 2 3 -1 -1 -4 -30 66 1296 87 442"))
+      (Document 1
+        (Signal "addmux" "escribir" 4 0)
+        (Signal "addmux" "leer" 4 0)
+        (Signal "addmux" "e_ram" 4 0)
+        (Signal "addmux" "e" 4 0)
+        (Signal "addmux" "direccion" 4 0)
+        (Signal "addmux" "direccion[8]" 4 1)
+        (Signal "addmux" "direccion[7]" 4 1)
+        (Signal "addmux" "direccion[6]" 4 1)
+        (Signal "addmux" "direccion[5]" 4 1)
+        (Signal "addmux" "direccion[4]" 4 1)
+        (Signal "addmux" "direccion[3]" 4 1)
+        (Signal "addmux" "direccion[2]" 4 1)
+        (Signal "addmux" "direccion[1]" 4 1)
+        (Signal "addmux" "direccion[0]" 4 1)
+        (Signal "addmux" "statin" 4 0)
+        (Signal "addmux" "statin[2]" 4 1)
+        (Signal "addmux" "statin[1]" 4 1)
+        (Signal "addmux" "statin[0]" 4 1)
+        (Signal "addmux" "busd" 4 0)
+        (Signal "addmux" "busd[7]" 4 1)
+        (Signal "addmux" "busd[6]" 4 1)
+        (Signal "addmux" "busd[5]" 4 1)
+        (Signal "addmux" "busd[4]" 4 1)
+        (Signal "addmux" "busd[3]" 4 1)
+        (Signal "addmux" "busd[2]" 4 1)
+        (Signal "addmux" "busd[1]" 4 1)
+        (Signal "addmux" "busd[0]" 4 1)
+        (Signal "addmux" "diradd" 4 0)
+        (Signal "addmux" "diradd[6]" 4 1)
+        (Signal "addmux" "diradd[5]" 4 1)
+        (Signal "addmux" "diradd[4]" 4 1)
+        (Signal "addmux" "diradd[3]" 4 1)
+        (Signal "addmux" "diradd[2]" 4 1)
+        (Signal "addmux" "diradd[1]" 4 1)
+        (Signal "addmux" "diradd[0]" 4 1)
+        (Signal "addmux" "clkc" 4 0)
+        (Signal "addmux" "clkd" 4 0)
+        (Signal "addmux" "clkb" 4 0)
+        (Signal "addmux" "reset" 4 0)
+        (Signal "addmux" "pcl" 4 0)
+        (Signal "addmux" "pcl[7]" 4 1)
+        (Signal "addmux" "pcl[6]" 4 1)
+        (Signal "addmux" "pcl[5]" 4 1)
+        (Signal "addmux" "pcl[4]" 4 1)
+        (Signal "addmux" "pcl[3]" 4 1)
+        (Signal "addmux" "pcl[2]" 4 1)
+        (Signal "addmux" "pcl[1]" 4 1)
+        (Signal "addmux" "pcl[0]" 4 1)
+        (Signal "addmux" "fsr" 4 0)
+        (Signal "addmux" "fsr[7]" 4 1)
+        (Signal "addmux" "fsr[6]" 4 1)
+        (Signal "addmux" "fsr[5]" 4 1)
+        (Signal "addmux" "fsr[4]" 4 1)
+        (Signal "addmux" "fsr[3]" 4 1)
+        (Signal "addmux" "fsr[2]" 4 1)
+        (Signal "addmux" "fsr[1]" 4 1)
+        (Signal "addmux" "fsr[0]" 4 1)
+        (Signal "addmux" "status" 4 0)
+        (Signal "addmux" "status[7]" 4 1)
+        (Signal "addmux" "status[6]" 4 1)
+        (Signal "addmux" "status[5]" 4 1)
+        (Signal "addmux" "status[4]" 4 1)
+        (Signal "addmux" "status[3]" 4 1)
+        (Signal "addmux" "status[2]" 4 1)
+        (Signal "addmux" "status[1]" 4 1)
+        (Signal "addmux" "status[0]" 4 1)
+        (Window "44 0 1 -1 -1 -6 -32 88 1318 116 471"))
+      (Group "schematic1" "salida_eprom"
+        (Signal "schematic1" "eprom_insreg[13]")
+        (Signal "schematic1" "eprom_insreg[12]")
+        (Signal "schematic1" "eprom_insreg[11]")
+        (Signal "schematic1" "eprom_insreg[10]")
+        (Signal "schematic1" "eprom_insreg[9]")
+        (Signal "schematic1" "eprom_insreg[8]")
+        (Signal "schematic1" "eprom_insreg[7]"))
+      (Group "schematic1" "salida_e"
+        (Signal "schematic1" "eprom_insreg[7]")
+        (Signal "schematic1" "eprom_insreg[8]")
+        (Signal "schematic1" "eprom_insreg[9]")
+        (Signal "schematic1" "eprom_insreg[10]")
+        (Signal "schematic1" "eprom_insreg[11]")
+        (Signal "schematic1" "eprom_insreg[12]")
+        (Signal "schematic1" "eprom_insreg[13]"))
+      (Options
+        (AssertBeep 1)
+        (AssertLog 1)
+        (AssertMsg 1)
+        (AssertStop 1)
+        (BreakBeep 1)
+        (BreakLog 1)
+        (BreakMessage 1)
+        (BreakStop 1)
+        (DisableLoopChecking 0)
+        (FileOpen "C:\PRUEBA")
+        (InstructionStep 1)
+        (InteractiveUpdate 1)
+        (ITCEnabled 1)
+        (ListDisplayTop 1)
+        (LogTimeStamp 1)
+        (MiscOptLastPage 0)
+        (PlaAddToProject 1)
+        (PlaClockToOutput 0)
+        (PlaCombinational 0)
+        (PlaResolution -1)
+        (PlaSetupTime 0)
+        (PlaSpeedGrade 15)
+        (PlaTriStateEnable 0)
+        (Radix 0)
+        (RunResolution 2)
+        (RunTime 10000)
+        (SDFTiming 1)
+        (TimeCursorSnap 0)
+        (TimingBeep 0)
+        (TimingLog 1)
+        (TimingMsg 0)
+        (TimingStop 0)
+        (VHDLStandard 1)
+        (WaveDisplayTop 1)))
+    (Folder "Timed")
+    (DefaultFolder "In Design")
+    (LastModified "Sun Dec 08 18:56:41 2013"))
+  (DisplayVendor "Simple PLD")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\final.dsn")
+      (Path "Design Resources" ".\final.dsn" "SCHEMATIC1")
+      (Path "Simulation Resources")
+      (Path "Simulation Resources" "In Design")
+      (Select "Design Resources" ".\final.dsn" "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 160 609 -4 -30 -22 209 -7 392"))
+      (Tab 0))
+    (Doc
+      (Type "VhdlFile")
+      (Frame
+        (Placement "44 0 2 0 605 -4 -30 207 1386 -1 495"))
+      (Path "E:\DECODIFICADOR\ADDMUX.vhd")
+      (Scroll "9"))))
